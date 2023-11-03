@@ -15,7 +15,7 @@
         <nav>
           <div>
             <h1 class="text-bold uppercase p-4 border-b border-gray-100 text-8xl " >
-              <a href="/">sara's food</a>
+              <a href="/" class="text-green-500 sm:text-red-400 lg:text-blue-400">sara's food</a>
             </h1>
           </div>
           <ul>
@@ -38,9 +38,9 @@
         </nav>
   </div> <!-- end nav -->
 
-  <main class="px-12 py-12">
-    <div>
-      <a href="#" class="primary" >sign up</a>
+  <main class="px-12 py-12 bg-gray-100">
+    <div class="flex justify-end">
+      <a href="#" class="primary m-2" >sign up</a>
       <a href="#">log in </a>
     </div>
 
@@ -55,19 +55,20 @@
 
     <!-- cards gos here -->
       <div class="mt-8" >
-        <img src="./img/food3.jpg" alt="img">
-        <div>
+        <div class=" bg-gray-400 rounded overflow-hidden shadow-md">
+          <img src="./img/food3.jpg" alt="img" class="w-full h-33 sm:h-55 object-cover" >
+        <div class="m-4">
           <span>5 bean chilli</span>
-          <span>Recipe by Sara</span>
+          <span class="block text-gray-700 text-sm ">Recipe by Sara</span>
         </div>
-
+       </div>
       </div>
 
       <h4 class="text-bold mt-6 pb-2 border-b border-green-200 " >most popular </h4>
 
       <div class="mt-8" > cards go here </div>
 
-      <div>
+      <div class=" flex justify-center md:justify-center">
         <div class="bg-secondary-100" > 
           learn more botton
         </div>

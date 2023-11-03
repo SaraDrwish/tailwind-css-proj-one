@@ -11,6 +11,9 @@ module.exports = {
           100: "#Fe4548",
           200:"#888883"
         }
+      },
+      fontFamily: {
+        body: ['name of the new font']
       }
       
     },
